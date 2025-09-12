@@ -1,0 +1,31 @@
+footer {
+  background-color: #232427; /* Tailwind's bg-blue-900 */
+  color: white;
+  padding: 20px; /* Tailwind p-6 */
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Tailwind gap-6 */
+  margin-top: 0.75rem; /* Tailwind mt-3 */
+}
+
+footer .social-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+  color: #d1d5db; /* Tailwind's gray-300 */
+}

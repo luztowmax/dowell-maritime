@@ -1,0 +1,50 @@
+.services-container {
+  padding: 2rem; /* Tailwind p-8 */
+  max-width: 1024px; /* Tailwind max-w-4xl */
+  margin: 0 auto; /* Tailwind mx-auto */
+}
+
+.services-container h2 {
+  font-size: 1.875rem; /* Tailwind text-3xl */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1e3a8a; /* company blue */
+}
+
+.services-container ul {
+  list-style: disc;
+  padding-left: 1.5rem; /* Tailwind pl-6 */
+  margin-bottom: 1.5rem; /* Tailwind mb-6 */
+  color: #333;
+}
+
+.services-container ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* ✅ Grid for images */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* Tailwind gap-6 */
+}
+
+.services-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem; /* Tailwind rounded */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+  transition: transform 0.3s ease;
+}
+
+.services-grid img:hover {
+  transform: scale(1.03);
+}
+
+/* ✅ Responsive: 2 columns on medium+ */
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
