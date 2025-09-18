@@ -7,10 +7,10 @@ export default function About() {
       <h2>About Us</h2>
       <p>
         Dowell Maritime & Oil Resources Ltd is fully owned by reputable Nigerians. Dowell has capacity in upstream and downstream operation.
-        for over twenty two (22) years of our existence, we grew like an oak tree to attain multi-national company status with branches from Nigeria to Hong-Kong and to United States of America.
+        for over twenty two (22) ocean years of our existence, we grew like an oak tree to attain multi-national company status with branches from Nigeria to Hong-Kong and to United States of America.
       </p>
       <p>We have continued to hone our skills in the Downstream in Ship Chattering Services, Ship Management, Ship Husbandry, Oil & Gas Trading while in the Upstream, Offshore industry Support Services, Sales and Leasing of Capital Goods, Special Transportation, Provision of Marine Vessels Supply and Operation, Marine Security and Escort. Mooring Services, House Boats, Tugboats and Berges, etc </p>
-      <p>In addition to our Ship Husbandry, we manage vessels and broker charter to cargo owners with VLCC Tankers, Afromat vessels, MR vessels, small sized vessels for DPP and CPP cargoes. We trade in clean petroleum products, supply bulk cargoes to international Oil Companies, Independent Petroleum marketers, Oil rigs, terminals and platforms offshore. We are flexible and able to attend to calls anywhere, anytime and we have capacity for service delivery.</p>
+      <p>In addition to our downstream services, we manage vessels and broker charter to cargo owners with VLCC Tankers, Afromat vessels, MR vessels, small sized vessels for DPP and CPP cargoes. We trade in clean petroleum products, supply bulk cargoes to international Oil Companies, Independent Petroleum marketers, Oil rigs, terminals and platforms offshore. We are flexible and able to attend to calls anywhere, anytime and we have capacity for service delivery.</p>
       <div className="about-grid">
         <img
           src="/assets/oil rig 1.jpg"
@@ -23,7 +23,7 @@ export default function About() {
       </div>
       <h3>Our Commitment to Service Excellence</h3>
       <div className="about-commitment">
-        <p>We are committed to making available to our Customers outstanding professional who render superior and distinctive service. Dowell Maritime's growth has been as a result of its ingenuity and expertise in service delivery.</p>
+        <p>We are committed to making available to our customers outstanding professionals who render superior and distinctive services. Dowell Maritime's growth has been as a result of its ingenuity and expertise in service delivery.</p>
         <ul>
           <li>Professional Competence and experience in the industry spanning over 22 years.</li>
           <li>Quick response and turnaround time.</li>
@@ -37,6 +37,7 @@ export default function About() {
           We constantly train and motivate our staff to ensure that we continue to deliver on our promise of excellent service.
         </p>
       </div>
+      <h3> Message From our Executive  Chairman</h3>
       <div className="mission-vision-container">
         <div className="mission-card">
           <FaBullseye className="icon" />
@@ -50,6 +51,10 @@ export default function About() {
           <p>To be the foremost Shipping, Oil and Gas Company known for her high levels of efficiency and integrity with the most satisfied customers; ensuring that all stakeholders are justifiably proud to be associated with "Dowell Maritime & Oil Resources Ltd."</p>
         </div>
       </div>
+      <img
+        src="/assets/CEO 2.jpeg"
+        alt="CEO"
+      />
       <div className="board-management">
         <h3>Board and Management</h3>
         <p>At DOWELLMARITIME, we are guided by a visionary board of directors and an exceptional management team, united in our commitment to driving the success and growth of our organization. With our collective expertise, forward-thinking strategies, and unwavering dedication to excellence, we lay the foundation for innovation, profitability, and sustainable success.</p>
