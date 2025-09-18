@@ -1,6 +1,10 @@
-# TODO: Modify Hero Section to Single Static Image
+# TODO for Styling Home Page
 
-- [x] Update src/components/HeroSlider.js: Remove sliding logic, set to single image "/assets/oil rig 1.jpg", remove useState/useEffect, simplify JSX
-- [x] Update src/components/HeroSlider.css: Remove slider styles, make static image container
-- [x] Test the changes by running the app
-- [x] Add bold text "Reliable partners for your Maritime Needs" to hero section
+- [ ] Enhance typography: Larger headings, refined line heights, font weights
+- [ ] Add color scheme: Maritime blues with complementary accent colors
+- [ ] Improve layout: Add spacing, section backgrounds, container max widths
+- [ ] Add visual elements: Subtle shadows, gradients, hover effects
+- [ ] Ensure responsiveness: Mobile-first, tablet, desktop
+- [ ] Style HeroSlider container for better integration
+- [ ] Organize content: Use semantic HTML and consistent class naming
+- [ ] Test the styles by running the app

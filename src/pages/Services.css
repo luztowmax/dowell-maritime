@@ -1,50 +1,99 @@
+/* Services Page Styles - Enhanced Maritime Theme */
+
 .services-container {
-  padding: 2rem; /* Tailwind p-8 */
-  max-width: 1024px; /* Tailwind max-w-4xl */
-  margin: 0 auto; /* Tailwind mx-auto */
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #1f2937; /* gray-800 */
+  line-height: 1.7;
 }
 
+/* Main Heading */
 .services-container h2 {
-  font-size: 1.875rem; /* Tailwind text-3xl */
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e3a8a; /* blue-800 */
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Service List Container */
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Individual Service Card */
+.service-card {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #3b82f6; /* blue-500 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Service Card Headings */
+.service-card h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1e3a8a;
   margin-bottom: 1rem;
-  color: #1e3a8a; /* company blue */
 }
 
-.services-container ul {
-  list-style: disc;
-  padding-left: 1.5rem; /* Tailwind pl-6 */
-  margin-bottom: 1.5rem; /* Tailwind mb-6 */
-  color: #333;
+/* Paragraphs inside service cards */
+.service-card p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #374151; /* gray-700 */
 }
 
-.services-container ul li {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-}
-
-/* ✅ Grid for images */
-.services-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem; /* Tailwind gap-6 */
-}
-
-.services-grid img {
+/* Images inside service cards */
+.service-card img {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem; /* Tailwind rounded */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
-  transition: transform 0.3s ease;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.services-grid img:hover {
-  transform: scale(1.03);
+.service-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
-/* ✅ Responsive: 2 columns on medium+ */
+/* Responsive Design */
 @media (min-width: 768px) {
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .services-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .service-card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-container {
+    padding: 3rem 2rem;
+  }
+
+  .services-container h2 {
+    font-size: 3rem;
+  }
+
+  .service-card h3 {
+    font-size: 2rem;
   }
 }

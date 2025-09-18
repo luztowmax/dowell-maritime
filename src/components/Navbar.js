@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav>
       <div className="logo">
         <img src="/assets/DowellMaritme_logo2.png" alt="Dowell Maritime Logo" />
-        <h1>Dowell Maritime & Oil Resources</h1>
+        <h1>Dowell Maritime & Oil Resource</h1>
         <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
           <span className="bar"></span>
           <span className="bar"></span>

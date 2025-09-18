@@ -20,9 +20,9 @@ function App() {
   const location = useLocation();
 
   return (
-      <div className={`flex flex-col min-h-screen text-gray-900 ${location.pathname === '/contact' ? 'bg-blue-500 justify-center items-center' : 'bg-gray-100'}`}>
+      <div className={`flex flex-col min-h-screen text-gray-900 ${location.pathname === '/contact' ? 'bg-blue-500' : 'bg-gray-100'}`}>
         <Navbar />
-        <main className={`main-content container mx-auto px-4 py-6 flex-1 ${location.pathname === '/contact' ? 'flex justify-center items-center' : ''}`}>
+        <main className={`main-content container mx-auto px-4 py-6 flex-1`}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
