@@ -7,6 +7,7 @@ nav {
   padding: 0.5rem 1rem;
   color: rgb(35, 13, 231);
   position: relative;
+  z-index: 1000; /* High z-index to ensure navbar stays above all content */
 }
 
 /* Logo section */
@@ -81,6 +82,7 @@ nav ul li a:hover {
     display: none;
     padding: 1rem;
     border-radius: 0 0 0 8px;
+    z-index: 1001; /* Higher z-index for mobile menu to appear above hero content */
   }
 
   nav ul.open {
