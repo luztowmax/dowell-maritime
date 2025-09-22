@@ -3,7 +3,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="flex flex-col min-h-screen bg-blue-500">
+    <div className="bg-blue-500">
       <main className="flex-grow p-8 space-y-4 flex flex-col">
         <div className="contact-container text-white">
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
