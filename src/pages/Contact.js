@@ -8,8 +8,9 @@ export default function Contact() {
         <div className="contact-container text-white">
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
           <p><FaEnvelope className="inline mr-2" /> Email: info@dowellmaritime.com.ng</p>
+          <p><FaEnvelope className="inline mr-2" /> Email: info@dowelloceangate.com</p>
           <p><FaPhone className="inline mr-2" /> Phone: +234 8033265790</p>
-          <p><FaMapMarkerAlt className="inline mr-2" /> Address: 67 Payne Crescent Apapa Lagos, Nigeria</p>
+          <p><FaMapMarkerAlt className="inline mr-2" /> Address: 67 Payne Crescent Apapa Lagos, Nigeria.</p>
         </div>
       </main>
     </div>

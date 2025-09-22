@@ -26,10 +26,10 @@ export default function Services() {
           />
         </div>
         <div className="service-card">
-          <h3>Ship Management and Charter Brokerage</h3>
-          <p>Dowell Maritime provides a top level Global ship management and brokerage services specializing in the transportation of refined petroleum products.</p>
+          <h3>Ship Management </h3>
+          <p>Dowell Maritime provides a top level Global ship management  specialized in the transportation of refined petroleum products.</p>
           <p>We lease Support Vessels, Oil Tankers to major and independent Oil Marketers for lightening of imported products and for refinery loading, either on voyage and time charter contracts.</p>
-          <p>We also provide offshore support; Lunch boat hire services, Towage and Barge Operations, Ship-Ship Transfer Operations etc. Our local knowledge of operating conditions and strong relationship with all Local Authorities and Departments, ensures your best interests are maintained.</p>
+          <p>We also provide offshore support; Lunch boat hire services, Towage and Barge Operations, Ship-Ship Transfer Operations etc. Our local knowledge of operational conditions and strong relationship with all Local Authorities and Departments, ensures your best interests are maintained.</p>
           <p>We are proud of our expertise in handling all types vessels from Gas- Chemical -Oil tankers in all Nigerian Sea Ports.</p>
           <img
             src="/assets/images 4.jpeg"
