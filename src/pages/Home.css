@@ -20,6 +20,22 @@
   margin: 0 auto;
 }
 
+.read-more-btn {
+  background-color: #1e3a8a; /* deep maritime blue */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #1e40af; /* slightly lighter blue */
+}
+
 /* ✅ Responsive */
 @media (max-width: 768px) {
   .home-section {
